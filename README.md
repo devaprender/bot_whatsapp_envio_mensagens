@@ -1,4 +1,16 @@
-# Bem vindo! Instruções de como usar este script:
+# Bem vindo ao repositório da [Dev Aprender](https://www.devaprender.com)!
+
+Descubra como o poder da programação pode **mudar o futuro** e a **sua vida!**
+
+Redes Sociais:
+* [Youtube](https://www.youtube.com/devaprender.com)
+* [Site](www.devaprender.com)
+* [Instagram](https://www.instagram.com/devaprender.official/)
+* [Facebook](facebook.com/devaprender/)
+
+---
+
+# Instruções de como usar este script:
 
  - Se já usou o github antes já deve saber como fazer o download deste arquivo.
  - Se você nunca usou o GitHub(este site) antes, veja o que fazer abaixo
