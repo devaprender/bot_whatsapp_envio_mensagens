@@ -18,10 +18,12 @@ Redes Sociais:
 # Como baixar os arquivos
 
 1. Clique no botão verde para fazer o download
-![step1](images/step1.png)
+
+    ![step1](images/step1.png)
 
 2. Clique em Download ZIP
-![step2](images/step2.png)
+
+    ![step2](images/step2.png)
 
 ---
 
