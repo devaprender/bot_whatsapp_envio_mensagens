@@ -5,7 +5,8 @@ import time
 class WhatsappBot:
     def __init__(self):
         self.mensagem = " Bom dia pessoal, veja o video que acabou de sair https://www.youtube.com"
-        self.grupos = ["GRUPO DA FAMÍLIA", "GRUPO DE VENDAS"] # Altere o nome dos grupos aqui
+        # Altere o nome dos grupos aqui
+        self.grupos = ["GRUPO DA FAMÍLIA", "GRUPO DE VENDAS"]
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
@@ -15,7 +16,7 @@ class WhatsappBot:
         time.sleep(30)
         for grupo in self.grupos:
             grupo = self.driver.find_element_by_xpath(
-                f"//span[@title='INSIRA O NOME DO GRUPO AQUI']")
+                f"//span[@title='{grupo}")
             time.sleep(3)
             grupo.click()
             chat_box = self.driver.find_element_by_class_name('_13mgZ')
