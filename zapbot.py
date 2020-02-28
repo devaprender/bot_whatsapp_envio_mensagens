@@ -5,16 +5,12 @@ import time
 class WhatsappBot:
     def __init__(self):
         self.mensagem = " Bom dia pessoal, veja o video que acabou de sair https://www.youtube.com"
-        self.grupos = ["GRUPO DA FAMÍLIA", "GRUPO DE VENDAS"]
+        self.grupos = ["GRUPO DA FAMÍLIA", "GRUPO DE VENDAS"] # Altere o nome dos grupos aqui
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
 
     def EnviarMensagens(self):
-        # <span dir="auto" title="GRUPO DA FAMÍLIA" class="_19RFN _1ovWX">GRUPO DA FAMÍLIA</span>
-        # <div tabindex="-1" class="_13mgZ">
-        # <span data-icon="send" class="">
-        print('sdufhdsuhfu')
         self.driver.get('https://web.whatsapp.com')
         time.sleep(30)
         for grupo in self.grupos:
