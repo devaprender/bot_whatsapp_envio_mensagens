@@ -41,7 +41,7 @@ Redes Sociais:
 * **Economizar** dezenas de horas?
 * **Monetizar** seu conhecimento?
 
-Vou te ensinar tudo isso [neste curso](https://cursodevaprender.getresponsepages.com/), saiba mais [clicando aqui](https://cursodevaprender.getresponsepages.com/).
+Vou te ensinar tudo isso [neste curso](http://b.link/GitHub_curso_automacao), saiba mais [clicando aqui](http://b.link/GitHub_curso_automacao).
 
 ---
 
